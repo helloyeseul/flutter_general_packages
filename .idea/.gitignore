@@ -1,0 +1,5 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# CodeStream ignored files
+/../../flutter_general_packages\.idea/codestream.xml
