@@ -1,4 +1,4 @@
-part of 'common_widgets.dart';
+part of '../common_widgets.dart';
 
 extension SnackbarExtension on BuildContext {
   void showSnackBar(final String message) =>

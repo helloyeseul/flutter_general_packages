@@ -1,6 +1,6 @@
-part of 'common_widgets.dart';
+part of '../common_widgets.dart';
 
-extension ClickableExtensions on Widget {
+extension ClickableExtension on Widget {
   Widget clickable(
     void Function() action, {
     bool opaque = true,

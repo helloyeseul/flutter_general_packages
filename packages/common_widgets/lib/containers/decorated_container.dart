@@ -1,4 +1,4 @@
-part of 'common_widgets.dart';
+part of '../common_widgets.dart';
 
 class DecoratedContainer extends StatelessWidget {
   const DecoratedContainer({

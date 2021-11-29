@@ -1,4 +1,4 @@
-part of 'common_widgets.dart';
+part of '../common_widgets.dart';
 
 Widget _build(Alignment value, Widget child) =>
     Align(alignment: value, child: child);
