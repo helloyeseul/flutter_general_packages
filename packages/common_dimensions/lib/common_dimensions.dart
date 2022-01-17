@@ -7,6 +7,7 @@ part 'borders.dart';
 part 'corners.dart';
 part 'insets.dart';
 part 'lines.dart';
+part 'size.dart';
 part 'space.dart';
 
 const Color _grey = Color(0xFFF6F6F6);
