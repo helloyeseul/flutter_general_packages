@@ -1,11 +1,8 @@
-part of 'common_utils.dart';
-
-extension DurationExtension on Duration {
-  Future<T> delay<T>([FutureOr<T> Function()? callback]) async =>
-      Future<T>.delayed(this, callback);
-}
+part of '../common_utils.dart';
 
 extension NumDurationExtension on num {
+  String get twoDigit => toString().padLeft(2, '0');
+
   Duration get milliseconds {
     final value = (this * 1000).round();
     return _microseconds[value] ?? Duration(microseconds: value);
