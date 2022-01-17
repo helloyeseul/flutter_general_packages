@@ -1,6 +1,6 @@
 part of 'common_dimensions.dart';
 
-abstract class Inset {
+abstract class Insets {
   static EdgeInsets get vertical2 => top2 + bottom2;
 
   static EdgeInsets get vertical4 => top4 + bottom4;
@@ -51,41 +51,41 @@ abstract class Inset {
 
   static EdgeInsets get appbar => all28;
 
-  static const top2 = EdgeInsets.only(top: Size.s2);
-  static const top4 = EdgeInsets.only(top: Size.s4);
-  static const top8 = EdgeInsets.only(top: Size.s8);
-  static const top12 = EdgeInsets.only(top: Size.s12);
-  static const top16 = EdgeInsets.only(top: Size.s16);
-  static const top20 = EdgeInsets.only(top: Size.s20);
-  static const top24 = EdgeInsets.only(top: Size.s24);
-  static const top28 = EdgeInsets.only(top: Size.s28);
+  static const top2 = EdgeInsets.only(top: Sizes.s2);
+  static const top4 = EdgeInsets.only(top: Sizes.s4);
+  static const top8 = EdgeInsets.only(top: Sizes.s8);
+  static const top12 = EdgeInsets.only(top: Sizes.s12);
+  static const top16 = EdgeInsets.only(top: Sizes.s16);
+  static const top20 = EdgeInsets.only(top: Sizes.s20);
+  static const top24 = EdgeInsets.only(top: Sizes.s24);
+  static const top28 = EdgeInsets.only(top: Sizes.s28);
 
-  static const bottom2 = EdgeInsets.only(bottom: Size.s2);
-  static const bottom4 = EdgeInsets.only(bottom: Size.s4);
-  static const bottom8 = EdgeInsets.only(bottom: Size.s8);
-  static const bottom12 = EdgeInsets.only(bottom: Size.s12);
-  static const bottom16 = EdgeInsets.only(bottom: Size.s16);
-  static const bottom20 = EdgeInsets.only(bottom: Size.s20);
-  static const bottom24 = EdgeInsets.only(bottom: Size.s24);
-  static const bottom28 = EdgeInsets.only(bottom: Size.s28);
+  static const bottom2 = EdgeInsets.only(bottom: Sizes.s2);
+  static const bottom4 = EdgeInsets.only(bottom: Sizes.s4);
+  static const bottom8 = EdgeInsets.only(bottom: Sizes.s8);
+  static const bottom12 = EdgeInsets.only(bottom: Sizes.s12);
+  static const bottom16 = EdgeInsets.only(bottom: Sizes.s16);
+  static const bottom20 = EdgeInsets.only(bottom: Sizes.s20);
+  static const bottom24 = EdgeInsets.only(bottom: Sizes.s24);
+  static const bottom28 = EdgeInsets.only(bottom: Sizes.s28);
 
-  static const left2 = EdgeInsets.only(left: Size.s2);
-  static const left4 = EdgeInsets.only(left: Size.s4);
-  static const left8 = EdgeInsets.only(left: Size.s8);
-  static const left12 = EdgeInsets.only(left: Size.s12);
-  static const left16 = EdgeInsets.only(left: Size.s16);
-  static const left20 = EdgeInsets.only(left: Size.s20);
-  static const left24 = EdgeInsets.only(left: Size.s24);
-  static const left28 = EdgeInsets.only(left: Size.s28);
+  static const left2 = EdgeInsets.only(left: Sizes.s2);
+  static const left4 = EdgeInsets.only(left: Sizes.s4);
+  static const left8 = EdgeInsets.only(left: Sizes.s8);
+  static const left12 = EdgeInsets.only(left: Sizes.s12);
+  static const left16 = EdgeInsets.only(left: Sizes.s16);
+  static const left20 = EdgeInsets.only(left: Sizes.s20);
+  static const left24 = EdgeInsets.only(left: Sizes.s24);
+  static const left28 = EdgeInsets.only(left: Sizes.s28);
 
-  static const right2 = EdgeInsets.only(right: Size.s2);
-  static const right4 = EdgeInsets.only(right: Size.s4);
-  static const right8 = EdgeInsets.only(right: Size.s8);
-  static const right12 = EdgeInsets.only(right: Size.s12);
-  static const right16 = EdgeInsets.only(right: Size.s16);
-  static const right20 = EdgeInsets.only(right: Size.s20);
-  static const right24 = EdgeInsets.only(right: Size.s24);
-  static const right28 = EdgeInsets.only(right: Size.s28);
+  static const right2 = EdgeInsets.only(right: Sizes.s2);
+  static const right4 = EdgeInsets.only(right: Sizes.s4);
+  static const right8 = EdgeInsets.only(right: Sizes.s8);
+  static const right12 = EdgeInsets.only(right: Sizes.s12);
+  static const right16 = EdgeInsets.only(right: Sizes.s16);
+  static const right20 = EdgeInsets.only(right: Sizes.s20);
+  static const right24 = EdgeInsets.only(right: Sizes.s24);
+  static const right28 = EdgeInsets.only(right: Sizes.s28);
 
-  Inset._();
+  Insets._();
 }

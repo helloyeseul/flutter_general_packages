@@ -1,6 +1,6 @@
 part of 'common_dimensions.dart';
 
-abstract class Size {
+abstract class Sizes {
   static const s2 = 2.0;
   static const s4 = 4.0;
   static const s8 = 8.0;
@@ -20,5 +20,5 @@ abstract class Size {
   static double get appBarHeight => s56;
   static double get tabBarHeight => s48;
 
-  Size._();
+  Sizes._();
 }
