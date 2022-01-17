@@ -1,73 +1,91 @@
 part of 'common_dimensions.dart';
 
-abstract class Insets {
-  Insets._();
+abstract class Inset {
+  static EdgeInsets get vertical2 => top2 + bottom2;
 
-  static const all4 = EdgeInsets.all(4);
-  static const all8 = EdgeInsets.all(8);
-  static const all12 = EdgeInsets.all(12);
-  static const all16 = EdgeInsets.all(16);
-  static const all20 = EdgeInsets.all(20);
-  static const all24 = EdgeInsets.all(24);
-  static const all28 = EdgeInsets.all(28);
+  static EdgeInsets get vertical4 => top4 + bottom4;
 
-  static const vertical4 = EdgeInsets.symmetric(vertical: 4);
-  static const vertical8 = EdgeInsets.symmetric(vertical: 8);
-  static const vertical12 = EdgeInsets.symmetric(vertical: 12);
-  static const vertical16 = EdgeInsets.symmetric(vertical: 16);
-  static const vertical20 = EdgeInsets.symmetric(vertical: 20);
-  static const vertical24 = EdgeInsets.symmetric(vertical: 24);
-  static const vertical28 = EdgeInsets.symmetric(vertical: 28);
+  static EdgeInsets get vertical8 => top8 + bottom8;
 
-  static const horizontal4 = EdgeInsets.symmetric(horizontal: 4);
-  static const horizontal8 = EdgeInsets.symmetric(horizontal: 8);
-  static const horizontal12 = EdgeInsets.symmetric(horizontal: 12);
-  static const horizontal16 = EdgeInsets.symmetric(horizontal: 16);
-  static const horizontal20 = EdgeInsets.symmetric(horizontal: 20);
-  static const horizontal24 = EdgeInsets.symmetric(horizontal: 24);
-  static const horizontal28 = EdgeInsets.symmetric(horizontal: 28);
-}
+  static EdgeInsets get vertical12 => top12 + bottom12;
 
-extension EdgeInsetsExtension on EdgeInsets {
-  static EdgeInsets get all4 => Insets.all4;
+  static EdgeInsets get vertical16 => top16 + bottom16;
 
-  static EdgeInsets get all8 => Insets.all8;
+  static EdgeInsets get vertical20 => top20 + bottom20;
 
-  static EdgeInsets get all12 => Insets.all12;
+  static EdgeInsets get vertical24 => top24 + bottom24;
 
-  static EdgeInsets get all16 => Insets.all16;
+  static EdgeInsets get vertical28 => top28 + bottom28;
 
-  static EdgeInsets get all20 => Insets.all20;
+  static EdgeInsets get horizontal2 => left2 + right2;
 
-  static EdgeInsets get all24 => Insets.all24;
+  static EdgeInsets get horizontal4 => left4 + right4;
 
-  static EdgeInsets get all28 => Insets.all28;
+  static EdgeInsets get horizontal8 => left8 + right8;
 
-  static EdgeInsets get vertical4 => Insets.vertical4;
+  static EdgeInsets get horizontal12 => left12 + right12;
 
-  static EdgeInsets get vertical8 => Insets.vertical8;
+  static EdgeInsets get horizontal16 => left16 + right16;
 
-  static EdgeInsets get vertical12 => Insets.vertical12;
+  static EdgeInsets get horizontal20 => left20 + right20;
 
-  static EdgeInsets get vertical16 => Insets.vertical16;
+  static EdgeInsets get horizontal24 => left24 + right24;
 
-  static EdgeInsets get vertical20 => Insets.vertical20;
+  static EdgeInsets get horizontal28 => left28 + right28;
 
-  static EdgeInsets get vertical24 => Insets.vertical24;
+  static EdgeInsets get all2 => vertical2 + horizontal2;
 
-  static EdgeInsets get vertical28 => Insets.vertical28;
+  static EdgeInsets get all4 => vertical4 + horizontal4;
 
-  static EdgeInsets get horizontal4 => Insets.horizontal4;
+  static EdgeInsets get all8 => vertical8 + horizontal8;
 
-  static EdgeInsets get horizontal8 => Insets.horizontal8;
+  static EdgeInsets get all12 => vertical12 + horizontal12;
 
-  static EdgeInsets get horizontal12 => Insets.horizontal12;
+  static EdgeInsets get all16 => vertical16 + horizontal16;
 
-  static EdgeInsets get horizontal16 => Insets.horizontal16;
+  static EdgeInsets get all20 => vertical20 + horizontal20;
 
-  static EdgeInsets get horizontal20 => Insets.horizontal20;
+  static EdgeInsets get all24 => vertical24 + horizontal24;
 
-  static EdgeInsets get horizontal24 => Insets.horizontal24;
+  static EdgeInsets get all28 => vertical28 + horizontal28;
 
-  static EdgeInsets get horizontal28 => Insets.horizontal28;
+  static EdgeInsets get appbar => all28;
+
+  static const top2 = EdgeInsets.only(top: Size.s2);
+  static const top4 = EdgeInsets.only(top: Size.s4);
+  static const top8 = EdgeInsets.only(top: Size.s8);
+  static const top12 = EdgeInsets.only(top: Size.s12);
+  static const top16 = EdgeInsets.only(top: Size.s16);
+  static const top20 = EdgeInsets.only(top: Size.s20);
+  static const top24 = EdgeInsets.only(top: Size.s24);
+  static const top28 = EdgeInsets.only(top: Size.s28);
+
+  static const bottom2 = EdgeInsets.only(bottom: Size.s2);
+  static const bottom4 = EdgeInsets.only(bottom: Size.s4);
+  static const bottom8 = EdgeInsets.only(bottom: Size.s8);
+  static const bottom12 = EdgeInsets.only(bottom: Size.s12);
+  static const bottom16 = EdgeInsets.only(bottom: Size.s16);
+  static const bottom20 = EdgeInsets.only(bottom: Size.s20);
+  static const bottom24 = EdgeInsets.only(bottom: Size.s24);
+  static const bottom28 = EdgeInsets.only(bottom: Size.s28);
+
+  static const left2 = EdgeInsets.only(left: Size.s2);
+  static const left4 = EdgeInsets.only(left: Size.s4);
+  static const left8 = EdgeInsets.only(left: Size.s8);
+  static const left12 = EdgeInsets.only(left: Size.s12);
+  static const left16 = EdgeInsets.only(left: Size.s16);
+  static const left20 = EdgeInsets.only(left: Size.s20);
+  static const left24 = EdgeInsets.only(left: Size.s24);
+  static const left28 = EdgeInsets.only(left: Size.s28);
+
+  static const right2 = EdgeInsets.only(right: Size.s2);
+  static const right4 = EdgeInsets.only(right: Size.s4);
+  static const right8 = EdgeInsets.only(right: Size.s8);
+  static const right12 = EdgeInsets.only(right: Size.s12);
+  static const right16 = EdgeInsets.only(right: Size.s16);
+  static const right20 = EdgeInsets.only(right: Size.s20);
+  static const right24 = EdgeInsets.only(right: Size.s24);
+  static const right28 = EdgeInsets.only(right: Size.s28);
+
+  Inset._();
 }

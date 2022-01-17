@@ -1,5 +1,5 @@
-name: common_utils
-description: A collection of general utils
+name: common_dimensions
+description: A collection of general dimensions
 version: 0.0.1
 homepage: https://github.com/helloyeseul/flutter_general_packages
 publish_to: none
